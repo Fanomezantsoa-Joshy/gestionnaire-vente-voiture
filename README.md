@@ -1,10 +1,10 @@
-##--Gestionnaire de ventes de voitures--
+** Gestionnaire de ventes de voitures **
 
-## --Description--
+## -- Description --
 
 Application web de gestion des ventes de voitures développée avec Vue.js, PHP et MySQL. Elle permet de gérer les clients, les voitures et les achats, tout en proposant un tableau de bord avec le suivi des recettes.
 
-## --Fonctionnalités--
+## -- Fonctionnalités --
 
 - Authentification des utilisateurs
 - Gestion des clients
@@ -16,7 +16,7 @@ Application web de gestion des ventes de voitures développée avec Vue.js, PHP 
 - Boîtes d'alerte pour informer l'utilisateur des différentes opérations
 - Messages de succès après les opérations réussies
 
-## --Technologies utilisées--
+## -- Technologies utilisées --
 
 - Vue.js
 - JavaScript
@@ -29,7 +29,7 @@ Application web de gestion des ventes de voitures développée avec Vue.js, PHP 
 - XAMPP
 - Node.js et npm
 
-## --Structure du projet--
+## -- Structure du projet --
 
 - frontend : application Vue.js contenant l'interface utilisateur
 - backend : fichiers PHP assurant la communication avec la base de données
@@ -38,7 +38,7 @@ Application web de gestion des ventes de voitures développée avec Vue.js, PHP 
 - README.md : documentation du projet
 - .gitignore : fichiers et dossiers exclus du dépôt Git
 
-## --Installation--
+## -- Installation --
 
 - Cloner le dépôt GitHub dans le répertoire htdocs de XAMPP
 - Installer et démarrer XAMPP
@@ -51,28 +51,28 @@ Application web de gestion des ventes de voitures développée avec Vue.js, PHP 
 - Ouvrir l'adresse indiquée par Vite dans le navigateur
 - Un compte de teste est deja disponible pour explorer le projet sinon pouvez en créer un nouveau compte (Nom : Admin, Mot de passe : motdepasse).
 
-## --Base de données--
+## -- Base de données --
 
 La base de données MySQL contient les informations nécessaires à la gestion des clients, des voitures et des achats.
 
 Le script de création et d'initialisation de la base de données est disponible dans le dossier database.
 
-## --Validation des formulaires--
+## -- Validation des formulaires --
 
 Les formulaires de l'application utilisent Vuelidate afin d'effectuer une vérification dynamique des données saisies.
 
 Les erreurs de saisie sont affichées directement lors de la saisie afin d'aider l'utilisateur à corriger les informations avant leur enregistrement.
 
-## --Facturation--
+## -- Facturation --
 
 L'application permet de générer une facture au format PDF à partir des informations relatives à un achat.
 
-## --Tableau de bord--
+## -- Tableau de bord --
 
 Le tableau de bord présente un graphique permettant de visualiser le total des recettes pour chacun des six derniers mois.
 
 Cette représentation permet de suivre l'évolution des recettes sur une période récente.
 
-## --Auteur--
+## -- Auteur --
 
 Projet réalisé dans le cadre de ma formation en développement informatique.
